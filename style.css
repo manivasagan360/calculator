@@ -1,0 +1,103 @@
+.calculator{
+    border-radius: 10%;
+    background-color:slategray;
+    box-shadow: 15px 15px rgb(95, 110, 126);
+    width: 500px;
+    height: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    align-items: center;
+    justify-content: center
+
+}
+
+.display{
+    width: 400px;
+    height: 100px;
+    background-color: aliceblue;
+   
+   ;
+           
+}
+
+.buttons{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  justify-content: space-around;
+  align-content: space-between;
+  row-gap: 20px;
+
+}
+
+.button{   
+
+    
+    background-color: black;        
+    border-radius: 10%;
+    text-align: center;
+    color: whitesmoke;
+    font-size: 16px;
+    padding: 25px;
+    box-shadow: 5px 5px rgb(20, 20, 20);
+    
+}
+.button:hover{
+    box-shadow: 2px 2px rgb(20, 20, 20);
+
+}
+
+.nine{
+    order: 1;
+}
+
+.eight{
+    order: 2;
+}
+
+.seven{
+    order: 3;
+}
+
+.clear{
+    order: 4;
+}
+
+.six{
+    order: 5;
+}
+.five{
+    order: 6;
+}
+.four{
+    order: 7;
+}
+
+.plus{
+    order: 8;
+}
+.three{
+    order: 9;
+}
+.two{
+    order: 10;
+}
+.one{
+    order: 11;
+}
+
+.minus{
+    order: 12;
+}
+.zero{
+    order: 13;
+}
+.multiply{
+    order: 14;
+}
+.divide{
+    order: 15;
+}
+.equal{
+    order: 16;
+}
